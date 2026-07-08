@@ -1,4 +1,4 @@
-# **Release notes**
+## **Release notes**
 
 ### **Release 1.1.0 (June 15th 2026\)**
 
@@ -10,8 +10,6 @@
 
 First release
 
-# **Site sections and page types**
-
 ## **Homepage**
 
 ### **How homepage section work**
@@ -20,7 +18,7 @@ The homepage is designed to display excerpts from other pages on your site. This
 
 To show a page excerpt on the homepage, go to the page you want to feature and add the tag `homepage`. Once the tag has been added, the theme will automatically pull that page into the homepage and display it as a homepage section.
 
-<img src="images/image_1.png" style="width:70%;height:auto;">
+###### *<img src="images/image_1.png" style="width:70%;height:auto;">* *Adding the ‘homepage’ tag*
 
 ### **Adding a video hero section to the homepage** 
 
@@ -35,6 +33,8 @@ There are two video display modes available:
 
 The setup process is the same for both video types. The only difference is whether or not the `video_mode_control` tag is added.
 
+###### *<img src="images/image_2.png" style="width:70%;height:auto;">Types of video hero section*
+
 To add a video hero section to the homepage, first upload the video to YouTube or Vimeo.
 
 Then, create a Basic page in NationBuilder and add the YouTube or Vimeo video URL under **Page settings \> Headline**.
@@ -45,7 +45,7 @@ Once the video URL and content have been added, tag the Basic page with `homepag
 
 To display the video with controls and audio, also add the tag `video_mode_control`.
 
-<img src="images/image_2.png" style="width:70%;height:auto;">
+###### *<img src="images/image_3.png" style="width:70%;height:auto;">* *Adding the video URL under the Headline field*
 
 ### **Adding CTA hero sections to the homepage**
 
@@ -68,7 +68,9 @@ To set up the section:
 
 By default, the image appears on the left, with the text and button on the right. To move the image to the right, add the tag `image-right`.
 
-#### **Parallax Background CTA Section**
+###### *<img src="images/image_4.png" style="width:70%;height:auto;">Example of Hero Section with an Image \+ CTA button* 
+
+**Parallax Background CTA Section**
 
 The Parallax Background CTA Section displays the image as a full-width background image behind the CTA content.
 
@@ -83,7 +85,9 @@ To set up the section:
 
 Guidelines: the image file must be in JPG or PNG format and should use a landscape orientation.
 
-### **Adding a hero section to the homepage with just an image and text**
+###### *<img src="images/image_5.png" style="width:70%;height:auto;">Example of a Hero Section with a Parallax Background Image and a CTA Button*
+
+**Adding a hero section to the homepage with just an image and text**
 
 To add an image \+ text hero section to the homepage, create a Basic page type and tag the page with homepage.
 
@@ -93,7 +97,9 @@ Guidelines: the image file must be jpg or png format and landscaped.
 
 By default, the image will appear on the left hand side with the text on the right hand side. To change this around, add the tag `image-right`.
 
-### **Changing the background color of homepage excerpts**
+###### *<img src="images/image_6.png" style="width:70%;height:auto;">Example of a Hero Section with an image and text*
+
+**Changing the background color of homepage excerpts**
 
 Some homepage excerpts can have their own background color. This is controlled by adding a dedicated color tag to the page that is being displayed on the homepage.
 
@@ -157,11 +163,19 @@ Adding this tag to a supported homepage excerpt tells the theme to use the `--co
 
 By default, the homepage can display its own content from the NationBuilder content editor, along with any homepage excerpts pulled from other pages.
 
+<img src="images/image_7.png" style="width:70%;height:auto;">
+
+###### *Homepage showing its own content*
+
 If you want the homepage to act only as a container for excerpts, add the tag `hp_container` to the homepage.
 
 When this tag is added, the homepage will hide its own content and only display the excerpts from pages tagged with `homepage`. 
 
 This is useful when you want to build the homepage entirely from reusable page sections instead of adding content directly to the homepage editor.
+
+<img src="images/image_8.png" style="width:70%;height:auto;">
+
+###### *Homepage with its own content hidden*
 
 ### **Changing the order of homepage sections**
 
@@ -326,7 +340,7 @@ To add a thumbnail image to a Blog Post card, go to the relevant Blog Post page 
 The image file name must include the full word ***thumbnail*** for it to be used as the blog post thumbnail. For example: ***my-post-thumbnail.jpg***  
 Avoid splitting the word or shortening it. The theme will only detect the image if the file name contains “thumbnail” exactly as one complete word.
 
-<img src="images/image_3.png" style="width:70%;height:auto;">
+<img src="images/image_9.png" style="width:70%;height:auto;">
 
 ### **Adding featured blog posts**
 
@@ -364,7 +378,7 @@ Once this tag has been added, the theme will hide the “Posted by” author nam
 
 To display the Calendar page as a hero section, or excerpt, on the homepage, add the tag `homepage` to the Calendar page in the Control Panel.
 
-<img src="images/image_4.png" style="width:70%;height:auto;">
+<img src="images/image_10.png" style="width:70%;height:auto;">
 
 ## **Event Page**
 
@@ -385,4 +399,13 @@ Avoid splitting the word or shortening it. The theme will only detect the image 
 The Donation page can be displayed as a staged layout by adding the tag `staged_layout` to the Donation page.
 
 When this tag is added, the theme will separate the donation form into multiple steps, creating a more guided donation experience for supporters.
+
+
+
+
+
+
+
+
+
 
