@@ -18,7 +18,7 @@ The homepage is designed to display excerpts from other pages on your site. This
 
 To show a page excerpt on the homepage, go to the page you want to feature and add the tag `homepage`. Once the tag has been added, the theme will automatically pull that page into the homepage and display it as a homepage section.
 
-###### *<img src="images/image_1.png" style="width:70%;height:auto;">* *Adding the ‘homepage’ tag*
+<img src="images/image_1.png" style="width:70%;height:auto;" title="Adding the ‘homepage’ tag">
 
 ### **Adding a video hero section to the homepage** 
 
@@ -33,7 +33,7 @@ There are two video display modes available:
 
 The setup process is the same for both video types. The only difference is whether or not the `video_mode_control` tag is added.
 
-###### *<img src="images/image_2.png" style="width:70%;height:auto;">Types of video hero section*
+<img src="images/image_2.png" style="width:70%;height:auto;" title="Types of video hero section">
 
 To add a video hero section to the homepage, first upload the video to YouTube or Vimeo.
 
@@ -45,7 +45,7 @@ Once the video URL and content have been added, tag the Basic page with `homepag
 
 To display the video with controls and audio, also add the tag `video_mode_control`.
 
-###### *<img src="images/image_3.png" style="width:70%;height:auto;">* *Adding the video URL under the Headline field*
+<img src="images/image_3.png" style="width:70%;height:auto;" title="Adding the video URL under the Headline field">
 
 ### **Adding CTA hero sections to the homepage**
 
@@ -68,9 +68,9 @@ To set up the section:
 
 By default, the image appears on the left, with the text and button on the right. To move the image to the right, add the tag `image-right`.
 
-###### *<img src="images/image_4.png" style="width:70%;height:auto;">Example of Hero Section with an Image \+ CTA button* 
+<img src="images/image_4.png" style="width:70%;height:auto;" title="Example of Hero Section with an Image + CTA button">
 
-**Parallax Background CTA Section**
+#### **Parallax Background CTA Section**
 
 The Parallax Background CTA Section displays the image as a full-width background image behind the CTA content.
 
@@ -85,7 +85,7 @@ To set up the section:
 
 Guidelines: the image file must be in JPG or PNG format and should use a landscape orientation.
 
-###### *<img src="images/image_5.png" style="width:70%;height:auto;">Example of a Hero Section with a Parallax Background Image and a CTA Button*
+<img src="images/image_5.png" style="width:70%;height:auto;" title="Example of a Hero Section with a Parallax Background Image and a CTA Button">
 
 **Adding a hero section to the homepage with just an image and text**
 
@@ -97,9 +97,9 @@ Guidelines: the image file must be jpg or png format and landscaped.
 
 By default, the image will appear on the left hand side with the text on the right hand side. To change this around, add the tag `image-right`.
 
-###### *<img src="images/image_6.png" style="width:70%;height:auto;">Example of a Hero Section with an image and text*
+<img src="images/image_6.png" style="width:70%;height:auto;" title="Example of a Hero Section with an image and text">
 
-**Changing the background color of homepage excerpts**
+#### **Changing the background color of homepage excerpts**
 
 Some homepage excerpts can have their own background color. This is controlled by adding a dedicated color tag to the page that is being displayed on the homepage.
 
@@ -163,9 +163,7 @@ Adding this tag to a supported homepage excerpt tells the theme to use the `--co
 
 By default, the homepage can display its own content from the NationBuilder content editor, along with any homepage excerpts pulled from other pages.
 
-<img src="images/image_7.png" style="width:70%;height:auto;">
-
-###### *Homepage showing its own content*
+<img src="images/image_7.png" style="width:70%;height:auto;" title="Homepage showing its own content">
 
 If you want the homepage to act only as a container for excerpts, add the tag `hp_container` to the homepage.
 
@@ -173,9 +171,7 @@ When this tag is added, the homepage will hide its own content and only display 
 
 This is useful when you want to build the homepage entirely from reusable page sections instead of adding content directly to the homepage editor.
 
-<img src="images/image_8.png" style="width:70%;height:auto;">
-
-###### *Homepage with its own content hidden*
+<img src="images/image_8.png" style="width:70%;height:auto;" title="Homepage with its own content hidden">
 
 ### **Changing the order of homepage sections**
 

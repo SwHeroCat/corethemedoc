@@ -8,11 +8,15 @@
 # 3. Allow Git to look inside other directories (to find 'docs/')
 !/*/
 
-# 4. Do not ignore the 'docs' folder itself
+# 4. Ignore the publish folder and all its contents
+/publish/
+/publish/**
+
+# 5. Do not ignore the 'docs' folder itself
 !/docs/
 
-# 5. Do not ignore any content or subfolders inside 'docs'
+# 6. Do not ignore any content or subfolders inside 'docs'
 !/docs/**
 
-# 6. Ensure this .gitignore file itself is tracked and committed
+# 7. Ensure this .gitignore file itself is tracked and committed
 !.gitignore
