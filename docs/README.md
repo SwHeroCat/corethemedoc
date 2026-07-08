@@ -20,7 +20,7 @@ To show a page excerpt on the homepage, go to the page you want to feature and a
 
 <img src="images/image_1.png" style="width:70%;height:auto;" title="Adding the ‘homepage’ tag">
 
-### **Adding a video hero section to the homepage** 
+### **Adding a video hero section to the homepage**
 
 Adding a video hero section to the homepage
 
@@ -99,7 +99,7 @@ By default, the image will appear on the left hand side with the text on the rig
 
 <img src="images/image_6.png" style="width:70%;height:auto;" title="Example of a Hero Section with an image and text">
 
-#### **Changing the background color of homepage excerpts**
+### **Changing the background color of homepage excerpts**
 
 Some homepage excerpts can have their own background color. This is controlled by adding a dedicated color tag to the page that is being displayed on the homepage.
 
