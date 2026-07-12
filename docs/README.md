@@ -24,14 +24,14 @@ To show a page excerpt on the homepage, go to the page you want to feature and a
 
 Adding a video hero section to the homepage
 
-Video hero sections can be added to the homepage using a Basic page. Both YouTube and Vimeo videos are supported.
+Video hero sections can be added to the homepage using a Basic page. Both *YouTube* and *Vimeo* videos are supported.
 
 There are two video display modes available:
 
 1. The default video mode displays the video as a full-screen background. It autoplays on a loop, has no visible controls, and plays without audio. Optional overlay text can be added on top of the video.  
-2. The second video mode displays the video with controls, allowing visitors to click play and watch the video with audio. To use this version, add the tag `video_mode_control` to the Basic page. \[v1.1.0+\]
+2. The second video mode displays the video with controls, allowing visitors to click play and watch the video with audio. To use this version, add the tag `adm_video_mode_control` to the Basic page. \[v1.1.0+\]
 
-The setup process is the same for both video types. The only difference is whether or not the `video_mode_control` tag is added.
+The setup process is the same for both video types. The only difference is whether or not the `adm_video_mode_control` tag is added.
 
 <img src="images/image_2.png" style="width:70%;height:auto;" title="Types of video hero section">
 
@@ -43,7 +43,7 @@ If you want to display overlay text on top of the video, add that text to the pa
 
 Once the video URL and content have been added, tag the Basic page with `homepage`. The theme will then use that page to display the video section on the homepage.
 
-To display the video with controls and audio, also add the tag `video_mode_control`.
+To display the video with controls and audio, also add the tag `adm_video_mode_control`.
 
 <img src="images/image_3.png" style="width:70%;height:auto;" title="Adding the video URL under the Headline field">
 
@@ -55,9 +55,9 @@ There are two CTA hero section layouts available for the homepage: the **Image a
 
 The Image and Text CTA Hero Section displays text, a button, and an image side by side.
 
-To add this section to the homepage, create a **Basic** page and tag it with both `homepage` and `cta`.
+To add this section to the homepage, create a **Basic** page and tag it with both `homepage` and `adm_cta`.
 
-The `homepage` tag tells the theme to display the page as a homepage section. The `cta` tag tells the theme to use the CTA layout.
+The `homepage` tag tells the theme to display the page as a homepage section. The `adm_cta` tag tells the theme to use the CTA layout.
 
 To set up the section:
 
@@ -66,7 +66,7 @@ To set up the section:
 * Add the section text in the **Content** editor.  
 * Add the image under **Files**.
 
-By default, the image appears on the left, with the text and button on the right. To move the image to the right, add the tag `image-right`.
+By default, the image appears on the left, with the text and button on the right. To move the image to the right, add the tag `adm_image_right`.
 
 <img src="images/image_4.png" style="width:70%;height:auto;" title="Example of Hero Section with an Image + CTA button">
 
@@ -74,7 +74,7 @@ By default, the image appears on the left, with the text and button on the right
 
 The Parallax Background CTA Section displays the image as a full-width background image behind the CTA content.
 
-To use this layout, create a **Basic** page and tag it with `homepage`, `cta`, and `parallax`.
+To use this layout, create a **Basic** page and tag it with `homepage`, `adm_cta`, and `adm_parallax`.
 
 To set up the section:
 
@@ -95,7 +95,7 @@ Add the image by navigating to **Files** and upload the image you want to displa
 
 Guidelines: the image file must be jpg or png format and landscaped.
 
-By default, the image will appear on the left hand side with the text on the right hand side. To change this around, add the tag `image-right`.
+By default, the image will appear on the left hand side with the text on the right hand side. To change this around, add the tag `adm_image_right`.
 
 <img src="images/image_6.png" style="width:70%;height:auto;" title="Example of a Hero Section with an image and text">
 
@@ -143,7 +143,7 @@ A theme color list may look like this:
 
 To create the page tag, combine:
 
-`color_bg_home_excerpt_` \+ the color name without `--color-`
+`adm_color_bg_home_excerpt_` \+ the color name without `--color-`
 
 For example, if the color in the list is:
 
@@ -155,7 +155,7 @@ remove `--color-`, leaving:
 
 Then add it after the tag prefix:
 
-`color_bg_home_excerpt_core-violet`
+`adm_color_bg_home_excerpt_core-violet`
 
 Adding this tag to a supported homepage excerpt tells the theme to use the `--color-core-violet` background color for that section.
 
@@ -165,7 +165,7 @@ By default, the homepage can display its own content from the NationBuilder cont
 
 <img src="images/image_7.png" style="width:70%;height:auto;" title="Homepage showing its own content">
 
-If you want the homepage to act only as a container for excerpts, add the tag `hp_container` to the homepage.
+If you want the homepage to act only as a container for excerpts, add the tag `adm_hp_container` to the homepage.
 
 When this tag is added, the homepage will hide its own content and only display the excerpts from pages tagged with `homepage`. 
 
@@ -177,9 +177,9 @@ This is useful when you want to build the homepage entirely from reusable page s
 
 Homepage sections can be reordered by adding a section order tag to each page that appears on the homepage.
 
-To control the order, add one of the tags below to the page you want to position. Sections tagged with `hp_section_1` will appear first, followed by `hp_section_2`, then `hp_section_3`, and so on up to `hp_section_10`.
+To control the order, add one of the tags below to the page you want to position. Sections tagged with `adm_hp_section_1` will appear first, followed by `adm_hp_section_2`, then `adm_hp_section_3`, and so on up to `adm_hp_section_10`.
 
-For example, if you want a specific homepage excerpt to appear first, add the tag `hp_section_1` to that page. If you want another excerpt to appear fourth, add the tag `hp_section_4` to that page.
+For example, if you want a specific homepage excerpt to appear first, add the tag `adm_hp_section_1` to that page. If you want another excerpt to appear fourth, add the tag `adm_hp_section_4` to that page.
 
 This gives you control over the order of homepage sections without needing to edit the page template.
 
@@ -195,14 +195,15 @@ This makes it easier to manage homepage sections without having to manually sear
 
 Signup pages can be displayed on the homepage in two different ways: 
 
-* as a signup form section   
-* as a Call to Action section
+* as a signup form section.   
+* as a Call to Action section.
+
 
 To display a Signup page as a form section, add the tag `homepage` to the Signup page.
 
-To display a Signup page with the CTA layout, add both tags: `homepage` and `cta`.
+To display a Signup page with the CTA layout, add both tags: `homepage` and `adm_cta`.
 
-The homepage tag tells the theme to show the page on the homepage, while the `cta` tag changes the layout from a signup form to a Call to Action section.
+The `homepage` tag tells the theme to show the page on the homepage, while the `adm_cta` tag changes the layout from a signup form to a Call to Action section.
 
 ### **Adding animations to homepage sections**
 
@@ -212,11 +213,11 @@ To add an animation, assign an animation tag to the page being displayed as a ho
 
 The tag is created using this format:
 
-`animation:` \+ the animation name
+`adm_animation:` \+ the animation name
 
 For example, to make a section fade into view from the top, add the tag:
 
-`animation:fade-down`
+`adm_animation:fade-down`
 
 The animation will be applied automatically when the section enters the visitor’s view.
 
@@ -224,55 +225,55 @@ The animation will be applied automatically when the section enters the visitor�
 
 **Fade animations**
 
-`animation:fade-up`
+`adm_animation:fade-up`
 
-`animation:fade-down`
+`adm_animation:fade-down`
 
-`animation:fade-left`
+`adm_animation:fade-left`
 
-`animation:fade-right`
+`adm_animation:fade-right`
 
-`animation:fade-up-left`
+`adm_animation:fade-up-left`
 
-`animation:fade-up-right`
+`adm_animation:fade-up-right`
 
-`animation:fade-down-left`
+`adm_animation:fade-down-left`
 
-`animation:fade-down-right`
+`adm_animation:fade-down-right`
 
 **Flip animations**
 
-`animation:flip-up`
+`adm_animation:flip-up`
 
-`animation:flip-down`
+`adm_animation:flip-down`
 
-`animation:flip-left`
+`adm_animation:flip-left`
 
-`animation:flip-right`
+`adm_animation:flip-right`
 
 **Zoom animations**
 
-`animation:zoom-in`
+`adm_animation:zoom-in`
 
-`animation:zoom-in-up`
+`adm_animation:zoom-in-up`
 
-`animation:zoom-in-down`
+`adm_animation:zoom-in-down`
 
-`animation:zoom-in-left`
+`adm_animation:zoom-in-left`
 
-`animation:zoom-in-right`
+`adm_animation:zoom-in-right`
 
-`animation:zoom-out`
+`adm_animation:zoom-out`
 
-`animation:zoom-out-up`
+`adm_animation:zoom-out-up`
 
-`animation:zoom-out-down`
+`adm_animation:zoom-out-down`
 
-`animation:zoom-out-left`
+`adm_animation:zoom-out-left`
 
-`animation:zoom-out-right`
+`adm_animation:zoom-out-right`
 
-For example, adding `animation:zoom-in` to a page will make that homepage section zoom into view as the visitor scrolls to it.
+For example, adding `adm_animation:zoom-in` to a page will make that homepage section zoom into view as the visitor scrolls to it.
 
 Only one animation tag should be added to each homepage section.
 
@@ -294,8 +295,10 @@ The map pin and phone icons are pulled from your nation’s contact details. To 
 
 ### **Adding social media links to the footer**
 
-To add social media links to the footer, go to the **Homepage**, then open the **Subpages tab** and click **New subpage**.  
-Create a new page using the **Redirect page** type. This redirect page will be used to display the relevant social media icon in the footer.  
+To add social media links to the footer, go to the **Homepage**, then open the **Subpages tab** and click **New subpage**.
+
+Create a new page using the **Redirect page** type. This redirect page will be used to display the relevant social media icon in the footer.
+
 The page name and slug should match the social media platform you want to show. Use the following options:
 
 | Social media platform | Page name | Slug |
@@ -308,8 +311,10 @@ The page name and slug should match the social media platform you want to show. 
 
 ### **Adding a newsletter signup form**
 
-To display a newsletter signup field in the footer, go to **Pages** \> **New page** in your NationBuilder control panel.  
-Create a new page using the Signup page type and set the page slug to **newsletter\_join**.  
+To display a newsletter signup field in the footer, go to **Pages** \> **New page** in your NationBuilder control panel.
+
+Create a new page using the Signup page type and set the page slug to **newsletter\_join**.
+
 Once this page has been created with the correct slug, the theme will automatically display the newsletter signup field in the footer, allowing visitors to join your list by entering their email address.
 
 ### **Adding Footer legal links**
@@ -328,12 +333,14 @@ The theme will automatically display these pages as links in the footer when the
 
 ### **How to show the Blog page as a hero section on the homepage**
 
-To display the Blog page as a hero section, or excerpt, on the homepage, add the tag `homepage` to the Blog page in the Control Panel..
+To display the Blog page as a hero section, or excerpt, on the homepage, add the tag `homepage` to the Blog page in the Control Panel.
 
 ### **How to add thumbnail images to a blog post card**
 
-To add a thumbnail image to a Blog Post card, go to the relevant Blog Post page in your Control Panel, then open the **Files** tab and upload your image.  
-The image file name must include the full word ***thumbnail*** for it to be used as the blog post thumbnail. For example: ***my-post-thumbnail.jpg***  
+To add a thumbnail image to a Blog Post card, go to the relevant Blog Post page in your Control Panel, then open the **Files** tab and upload your image.
+
+The image file name must include the full word ***thumbnail*** for it to be used as the blog post thumbnail. For example: ***my-post-thumbnail.jpg***
+
 Avoid splitting the word or shortening it. The theme will only detect the image if the file name contains “thumbnail” exactly as one complete word.
 
 <img src="images/image_9.png" style="width:70%;height:auto;">
@@ -344,57 +351,56 @@ The Blog page can display selected posts as featured posts at the top of the pag
 
 To feature a blog post, add one of the featured tags to the relevant Blog Post page. The tag you add determines the position of the post within the featured area.
 
-For example, adding `featured_1` will display the post as the main featured blog post. 
+For example, adding `adm_featured_1` will display the post as the main featured blog post. 
 
 Use the tags below to control where each featured blog post appears on the Blog page.
 
 | Tag | Featured post position |
 | :---- | :---- |
-| featured\_1 | Main featured blog post |
-| featured\_2 | Secondary featured blog post |
-| featured\_3 | Third featured blog post |
+| `adm_featured_1` | Main featured blog post |
+| `adm_featured_2` | Secondary featured blog post |
+| `adm_featured_3` | Third featured blog post |
 
 This allows you to manually choose which blog posts should receive more visibility on the Blog page.
 
 ### **Adding an intro section to the Blog page**
 
-To add an intro text section to the Blog page, create a new Basic subpage under the Blog page.  
-Add the content you want to display in the Basic page’s content editor, then assign the tag `intro` to that Basic page.  
+To add an intro text section to the Blog page, create a new Basic subpage under the Blog page.
+
+Add the content you want to display in the Basic page’s content editor, then assign the tag `adm_intro` to that Basic page.
+
 Once the tag has been added, the theme will automatically display that content as the intro section on the Blog page.
 
 ### **Hiding the Blog Post byline \[v1.1.0+\]**
 
-By default, Blog Post pages display the author’s name in the byline, for example: Posted by \[author name\].  
-To hide the byline from Blog Post pages, add the tag `hide_byline` to the Blog page.  
+By default, Blog Post pages display the author’s name in the byline, for example: Posted by \[author name\].
+
+To hide the byline from Blog Post pages, add the tag `adm_hide_byline` to the Blog page.  
 Once this tag has been added, the theme will hide the “Posted by” author name and avatar image from the Blog Posts cards within that Blog.
-
-## **Calendar Page**
-
-### **How to show the Calendar page as a hero section on the homepage**
-
-To display the Calendar page as a hero section, or excerpt, on the homepage, add the tag `homepage` to the Calendar page in the Control Panel.
-
-<img src="images/image_10.png" style="width:70%;height:auto;">
 
 ## **Event Page**
 
-### **How to show the Event page as a hero section on the homepage**
-
-To display the Event page as a hero section, or excerpt, on the homepage, add the tag `homepage` to the Event page in the Control Panel.
-
 ### **How to add thumbnail images to an Event page card**
 
-To add a thumbnail image to an Event card, go to the relevant Event page in your Control Panel, then open the **Files** tab and upload your image.  
-The image file name must include the full word ***thumbnail*** for it to be used as the blog post thumbnail. For example: ***my-post-thumbnail.jpg***  
+To add a thumbnail image to an Event card, go to the relevant Event page in your Control Panel, then open the **Files** tab and upload your image.
+
+The image file name must include the full word ***thumbnail*** for it to be used as the blog post thumbnail. For example: ***my-post-thumbnail.jpg***
+
 Avoid splitting the word or shortening it. The theme will only detect the image if the file name contains “thumbnail” exactly as one complete word.
+
+Guidelines: for a better look and feel select a landscaped image.
+
+<img src="images/image_10.png" style="width:70%;height:auto;" title="Naming the event thumbnail image file">
+<img src="images/image_11.png" style="width:70%;height:auto;" title="Event card with thumbnail image">
 
 ## **Donation (v2) Page**
 
 ### **Using the staged donation layout**
 
-The Donation page can be displayed as a staged layout by adding the tag `staged_layout` to the Donation page.
+The Donation page can be displayed as a staged layout by adding the tag `adm_staged_layout` to the Donation page.
 
 When this tag is added, the theme will separate the donation form into multiple steps, creating a more guided donation experience for supporters.
+
 
 
 
